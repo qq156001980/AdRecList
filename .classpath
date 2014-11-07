@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="var" path="USER_HOME/hadoop-2.2.0/通常需要的jar/hadoop-common-2.2.0.jar"/>
+	<classpathentry kind="var" path="USER_HOME/hadoop-2.2.0/通常需要的jar/hadoop-mapreduce-client-core-2.2.0.jar"/>
+	<classpathentry kind="var" path="USER_HOME/hadoop-2.2.0/通常需要的jar/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="var" path="USER_HOME/hadoop-2.2.0/通常需要的jar/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="var" path="USER_HOME/hadoop-2.2.0/通常需要的jar/commons-cli-1.1.jar"/>
+	<classpathentry kind="var" path="USER_HOME/hadoop-2.2.0/通常需要的jar/guava-11.0.2.jar"/>
+	<classpathentry kind="var" path="USER_HOME/grocery/分词jar包/IKAnalyzer3.2.0Stable.jar"/>
+	<classpathentry kind="var" path="USER_HOME/grocery/分词jar包/lucene-analyzers-common-4.3.0.jar"/>
+	<classpathentry kind="var" path="USER_HOME/grocery/分词jar包/lucene-core-3.6.0.jar"/>
+	<classpathentry kind="output" path="out/production/AdvertiseSys"/>
+</classpath>

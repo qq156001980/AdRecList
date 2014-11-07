@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ad:jar">
+    <output-path>$USER_HOME$/szq</output-path>
+    <root id="archive" name="test.jar">
+      <element id="module-output" name="AdvertiseSys" />
+      <element id="extracted-dir" path="$USER_HOME$/hadoop-2.2.0/通常需要的jar/commons-logging-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/hadoop-2.2.0/通常需要的jar/com.springsource.org.apache.commons.logging-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/grocery/分词jar包/lucene-analyzers-common-4.3.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/grocery/分词jar包/IKAnalyzer3.2.0Stable.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/hadoop-2.2.0/通常需要的jar/commons-cli-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/grocery/分词jar包/lucene-core-3.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/hadoop-2.2.0/通常需要的jar/guava-11.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/hadoop-2.2.0/通常需要的jar/hadoop-common-2.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/hadoop-2.2.0/通常需要的jar/hadoop-mapreduce-client-core-2.2.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
