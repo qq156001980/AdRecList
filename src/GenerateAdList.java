@@ -132,7 +132,7 @@ public class GenerateAdList {
 
 
     public static class Map extends Mapper<Text,Text,Text,Text>{
-        private static String path="ad/ad.txt";
+        private static String path=MyRun.getAd();
         private static HashMap<String,HashMap<String,String>> adVector=inputAdVector(path);
 
         @Override

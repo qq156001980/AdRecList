@@ -99,7 +99,7 @@ public class GenerateTempVector {
 
 
     public static class Map extends Mapper<Text,Text,Text,Text>{
-        private static String path="macurl/macurl.txt";
+        private static String path=MyRun.getMacurl();
 
         private static HashMap<String,ArrayList<String>> macUrl=inputMacUrl(path);
 

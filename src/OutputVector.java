@@ -22,7 +22,6 @@ public class OutputVector {
 
     //读入关键词列表到hashmap函数
     public static HashMap<String,ArrayList<String>> inputHashMap(String path){
-        System.out.println("this is inputHashMap.........");
         HashMap<String,ArrayList<String>> wordsMap=new HashMap<String, ArrayList<String>>();
         Configuration conf=new Configuration();
         BufferedReader in=null;
@@ -90,7 +89,7 @@ public class OutputVector {
 
     //统计用户访问网页的关键词进行输出
     public static class Reduce extends Reducer<Text,Text,Text,Text>{
-        private static String path="keyword/keyword.txt";
+        private static String path=MyRun.getKeyword();
         private static HashMap<String,ArrayList<String>> wordsMap=inputHashMap(path);
 
         @Override

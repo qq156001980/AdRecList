@@ -76,7 +76,7 @@ public class FinalMacVector {
 
     public static class Map extends Mapper<Text,Text,Text,Text>{
 
-        private static String path="macvector/macvector.txt";
+        private static String path=MyRun.getMacvector();
         private static HashMap<String,HashMap<String,String>> macVector=inputMacVector(path);
 
 
@@ -95,10 +95,7 @@ public class FinalMacVector {
 
             Set setFormer=macVector.keySet();
 
-//            Iterator iterator=setFormer.iterator();
-//            while(iterator.hasNext()){
-//                context.write(new Text((String)iterator.next()),new Text());
-//            }
+
 
             if(setFormer.contains(key.toString())){
                 HashMap<String,String> hashMap=macVector.get(key.toString());
